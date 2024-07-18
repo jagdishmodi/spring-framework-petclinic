@@ -1,3 +1,3 @@
 FROM anapsix/alpine-java 
-COPY /target/spring-petclinic-1.5.1.jar /home/spring-petclinic-1.5.1.jar 
-CMD ["java","-jar","/home/spring-petclinic-1.5.1.jar"]
+COPY /target/spring-petclinic-framework-petclinic-6.1.10.jar /home/spring-framework-petclinic-6.1.10.jar 
+CMD ["java","-jar","/home/spring-framework-petclinic-6.1.10.jar"]
