@@ -1,3 +1,3 @@
 FROM anapsix/alpine-java 
-COPY /target/spring-petclinic.war /home/spring-petclinic.war 
-CMD ["java","-jar","/home/spring-petclinic.war"]
+COPY /target/petclinic.war /home/petclinic.war 
+CMD ["java","-jar","/home/petclinic.war"]
